@@ -53,3 +53,17 @@ img {
 .role {
     grid-area: r;
 }
+
+.main-text {
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.danial {
+    background: hsl(263, 55%, 52%);
+    color: hsl(260, 100%, 95%);
+}
+
+.danial img {
+    border: 3px solid hsl(264, 82%, 80%);
+}
