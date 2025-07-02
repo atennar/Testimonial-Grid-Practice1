@@ -1,0 +1,23 @@
+* {
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: font500;
+    src: url(./assest/fonts/BarlowSemiCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: font600;
+    src: url(./assest/fonts/BarlowSemiCondensed-SemiBold.ttf);
+}
+
+.name,
+.main-text {
+    font-family: font600;
+}
+
+.role,
+.secondary-text {
+    font-family: font500;
+}
