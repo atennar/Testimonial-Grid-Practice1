@@ -2,6 +2,14 @@
     font-size: 13px;
 }
 
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @font-face {
     font-family: font500;
     src: url(./assest/fonts/BarlowSemiCondensed-Medium.ttf);
