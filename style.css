@@ -62,6 +62,9 @@ img {
 .danial {
     background: hsl(263, 55%, 52%);
     color: hsl(260, 100%, 95%);
+    background-image: url(assest/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 50px top;
 }
 
 .danial img {
