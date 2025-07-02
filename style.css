@@ -135,6 +135,33 @@ img {
     max-width: 1200px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .danial,
+    .jonathan,
+    .kira,
+    .jeanette,
+    .patrick {
+        grid-column: span 1;
+        grid-row: auto;
+        margin: 10px 0;
+    }
+
+}
+
+
 @media screen and (max-width:375px) {
     body {
         height: auto;
