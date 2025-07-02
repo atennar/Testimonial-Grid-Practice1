@@ -21,3 +21,16 @@
 .secondary-text {
     font-family: font500;
 }
+
+.person {
+    border: 2px solid none;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 20px 20px 100px hsl(224, 10%, 45%);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
