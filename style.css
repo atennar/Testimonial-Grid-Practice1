@@ -70,3 +70,36 @@ img {
 .danial img {
     border: 3px solid hsl(264, 82%, 80%);
 }
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 92%);
+}
+
+.jonathan .secondary-text,
+.jonathan .role {
+    color: hsl(0, 0%, 81%);
+}
+
+.kira,
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+.kira .secondary-text,
+.kira .role,
+.jeanette .secondary-text,
+.jeanette .role {
+    color: hsl(224, 10%, 45%);
+
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+}
+
+.patrick img {
+    border: 3px solid hsl(263, 55%, 52%);
+}
