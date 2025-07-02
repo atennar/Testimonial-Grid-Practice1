@@ -134,3 +134,30 @@ img {
     gap: 20px;
     max-width: 1200px;
 }
+
+@media screen and (max-width:375px) {
+    body {
+        height: auto;
+        display: block;
+        padding: 20px;
+    }
+
+    .danial {
+        background-image: none;
+    }
+
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .danial,
+    .jonathan,
+    .kira,
+    .jeanette,
+    .patrick {
+        margin: 10px;
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
